@@ -31,3 +31,9 @@ sudo apt-get install gnome-tweak-tool
 ## Fonts
 
 - Google Product Sans
+- Fira Code
+
+```bash
+cd scripts
+./install-fonts.sh
+```
