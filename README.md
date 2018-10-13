@@ -27,3 +27,7 @@ sudo apt-get install gnome-tweak-tool
   - Click on the Extensions menu item, and move the User themes slider to On.
   - Close Gnome Tweak Tool and open it again.
   - You should now be able to choose a Shell theme in the Appearance menu.
+
+## Fonts
+
+- Google Product Sans
