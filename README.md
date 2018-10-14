@@ -41,6 +41,9 @@ cd scripts
 ./install-fonts.sh
 ```
 
+- Monospace font is `Fira Code Regular`, size 12.
+- Other fonts are `Product Sans Regular`, size 12.
+
 ## Tools and Utilites
 
 - [Ulauncher](https://ulauncher.io/#Download)
@@ -51,71 +54,7 @@ cd scripts
 sudo gedit /usr/local/share/comfortable-swipe/comfortable-swipe.conf
 ```
 
-Replace with below
-
-```text
-# Comfortable Swipe converts touchpad swipe gestures to keyboard commands. You
-#   may edit this configuration file if you have different keyboard shortcuts
-#   that you would like to use. You can ignore a gesture by commenting out with
-#   a pound(#) symbol.
-#
-# Refer to https://www.linux.org/threads/xdotool-keyboard.10528/ for a list of
-#   keycodes you can use.
-
-#################
-# MISCELLANEOUS #
-#################
-
-# Threshold
-# Tweak this value depending on the sensitivity of your mousepad to perform
-# gestures. A higher value means less sensitive.
-# Default: threshold = 0.0
-threshold = 0.0
-
-#############################
-# THREE / FOUR FINGER SWIPE #
-#############################
-
-# 3-finger swipe left
-# The default shortcut is switching to the right workspace.
-# Default: left3 = ctrl+alt+Right
-left3 = ctrl+shift+Tab
-
-# 4-finger swipe left
-# The default shortcut is moving current window to the right workspace.
-# Default: left4=ctrl+alt+shift+Right
-left4 = Super_L+shift+Tab
-
-# 3-finger swipe right
-# The default shortcut is switching to the left workspace.
-# Default: right3 = ctrl+alt+Left
-right3 = ctrl+Tab
-
-# 4-finger swipe right
-# The default shortcut is moving current window to the left workspace.
-# Default: right4=ctrl+alt+shift+Left
-right4 = Super_L+Tab
-
-# 3-finger swipe up
-# The default shortcut is switching to the workspace below.
-# Default: up3 = ctrl+alt+Down
-up3 = ctrl+alt+Down
-
-# 4-finger swipe up
-# The default shortcut is moving current window to the bottom workspace.
-# Default: ctrl+alt+shift+Down
-up4 = ctrl+alt+shift+Down
-
-# 3-finger swipe down
-# The default shortcut is switching to the workspace above.
-# Default: down3 = ctrl+alt+Up
-down3 = ctrl+alt+Up
-
-# 4-finger swipe down
-# The default shortcut is moving current window to the above workspace.
-# Default: ctrl+alt+shift+Up
-down4 = ctrl+alt+shift+Up
-```
+Replace with [this](./config/comfortable-swipe/settings.conf)
 
 ### Gnome-shell Extensions
 
@@ -138,3 +77,23 @@ down4 = ctrl+alt+shift+Up
   - Shortcuts
     - Tab Right = `Shift+Ctrl+R`
     - Tab Bottom = `Shift+Ctrl+Q`
+
+## Text Editors
+
+### [Visual Studio Code](https://code.visualstudio.com/)
+
+- Install the extensions
+
+```bash
+cd scripts
+chmod +x install-vscode-ext.sh
+./install-vscode-ext.sh
+```
+
+- Import Atom keymap
+- Replace the user [settings](./config/vscode/settings.json)
+
+### [Sublime Text](https://www.sublimetext.com/docs/3/linux_repositories.html)
+
+- [Default Settings](./config/sublimetext/settings.json)
+- [Packages](./config/sublimetext/packages.json)

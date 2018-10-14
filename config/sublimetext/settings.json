@@ -1,0 +1,29 @@
+{
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  "detect_indentation": true,
+  "font_size": 13,
+  "ignored_packages": [
+    "HTML-CSS-JS Prettify",
+    "JsPrettier",
+    "MarkdownPreview",
+    "SideBarEnhancements",
+    "Theme - Gravity",
+    "Tomorrow Color Schemes",
+    "Vintage"
+  ],
+  "material_theme_accent_acid-lime": true,
+  "material_theme_accent_scrollbars": true,
+  "material_theme_accent_titlebar": true,
+  "material_theme_compact_panel": true,
+  "material_theme_contrast_mode": true,
+  "material_theme_panel_separator": true,
+  "material_theme_small_statusbar": true,
+  "material_theme_small_tab": true,
+  "material_theme_tabs_autowidth": true,
+  "material_theme_titlebar": true,
+  "tab_size": 2,
+  "theme": "Material-Theme-Darker.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "use_tab_stops": true,
+  "word_wrap": true
+}

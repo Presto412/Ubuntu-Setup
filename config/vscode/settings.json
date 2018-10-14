@@ -1,0 +1,53 @@
+{
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "alt",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#84FFFF",
+    "list.activeSelectionForeground": "#84FFFF",
+    "list.inactiveSelectionForeground": "#84FFFF",
+    "list.highlightForeground": "#84FFFF",
+    "scrollbarSlider.activeBackground": "#84FFFF50",
+    "editorSuggestWidget.highlightForeground": "#84FFFF",
+    "textLink.foreground": "#84FFFF",
+    "progressBar.background": "#84FFFF",
+    "pickerGroup.foreground": "#84FFFF",
+    "tab.activeBorder": "#84FFFF",
+    "notificationLink.foreground": "#84FFFF",
+    "editor.findWidgetResizeBorder": "#388E3C",
+    "editorWidget.border": "#84FFFF",
+    "editorWidget.resizeBorder": "#84FFFF",
+    "settings.modifiedItemForeground": "#84FFFF",
+    "panelTitle.activeBorder": "#84FFFF"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.historyExplorer.enabled": true,
+  "explorer.confirmDelete": false,
+  "yaml.format.enable": true,
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.autoIndent": true
+  },
+  "window.zoomLevel": -1,
+  "materialTheme.fixIconsRunning": false,
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "vsicons.dontShowNewVersionMessage": true,
+  "materialTheme.accentPrevious": "Breaking Bad",
+  "materialTheme.accent": "Sky",
+  "editor.fontSize": 18,
+  "editor.snippetSuggestions": "top",
+  "window.menuBarVisibility": "toggle",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true
+}
